@@ -223,18 +223,22 @@
 
      <!-- 4.7 color -->
      <gazebo reference="left_wheel">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/SkyBlue</material>
     </gazebo>
 
     <gazebo reference="right_wheel">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/Orange</material>
     </gazebo>
 
     <gazebo reference="chassis">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Purple</material>
     </gazebo>
 
     <gazebo reference="camera">
-        <material>Gazebo/Red</material>
+        <material>Gazebo/GreenGlow</material>
+    </gazebo>
+
+    <gazebo reference="hokuyo">
+        <material>Gzebo/Yellow</material>
     </gazebo>
 </robot>
